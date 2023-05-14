@@ -1,0 +1,11 @@
+{
+  "include": ["src"], // 타입스크립트파일이 어디에 저장될것인가
+  "compilerOptions": {
+    "outDir": "build", // 자바스크립트 파일이 생설될 디랙터리
+    "target": "ES6",
+    "lib": ["ES6"], // 타입스크립트 코드가 어디서 작동할지 알려줌 = 배열안에 적어준 api를 쓸수있게해줌
+    "strict": true, //
+    "esModuleInterop": true,
+    "module": "CommonJS" //
+  }
+}
